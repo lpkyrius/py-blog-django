@@ -1,0 +1,11 @@
+<!-- chamar o bloco do template base -->
+{% extends "blog/base.html" %}
+{% block content %}
+    <h2>Logout realizado!</h2>
+    <div class="border-toppt-3">
+        <small class="text-muted">
+            <a href="{% url 'login' %}">LogIn</a>
+        </small>
+    </div>
+
+{% endblock content %}
